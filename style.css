@@ -124,6 +124,53 @@ h1 {
   color: green;
 }
 
+/* 📱 Mobile Responsive */
+@media (max-width: 600px) {
+
+  #levels {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .level-btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #question {
+    font-size: 22px;
+  }
+
+  #options button {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  #timer {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+button {
+  min-height: 44px;
+}
+
+#gameScreen, #levelScreen {
+  max-width: 480px;
+  margin: auto;
+}
+
+
+
+
+
 
 
 
