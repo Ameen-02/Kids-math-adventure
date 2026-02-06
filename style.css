@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Comic Sans MS, cursive;
+  background: linear-gradient(#a1ffce, #faffd1);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  color: #ff5722;
+}
+
+#levels {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.level-btn {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.locked {
+  background: #ccc;
+}
+
+.unlocked {
+  background: #4caf50;
+  color: white;
+}
+
+#gameScreen {
+  padding: 20px;
+}
+
+#question {
+  font-size: 28px;
+  margin: 20px;
+}
+
+#options button {
+  display: block;
+  margin: 8px auto;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background: #03a9f4;
+  color: white;
+}
+
+#options button:hover {
+  background: #0288d1;
+}
+
+#timer {
+  font-size: 20px;
+  color: red;
+}
+
+#stars {
+  font-size: 25px;
+  margin: 10px;
+}
+
+#characterSelect button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: #ff9800;
+  color: white;
+}
+
+#trophies {
+  font-size: 22px;
+  margin: 15px;
+}
+
+#resultMsg {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  color: red;
+}
+
+#resetBtn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: #e53935;
+  color: white;
+}
+
+#resetBtn:hover {
+  background: #c62828;
+}
+
+#leaderboard {
+  margin: 10px;
+  font-size: 18px;
+  background: #fff3e0;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+#dailyMsg {
+  font-size: 16px;
+  margin: 8px;
+  color: green;
+}
+
+
+
+
+
+

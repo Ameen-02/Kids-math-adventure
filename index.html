@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kids Math Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="characterSelect">
+  <h2>Choose Your Character</h2>
+  <button onclick="selectCharacter('boy')">👦 Boy</button>
+  <button onclick="selectCharacter('girl')">👧 Girl</button>
+</div>
+
+<div id="levelScreen">
+  <h1>🧠 Kids Math Quiz</h1>
+  <h2>🏆 Leaderboard</h2>
+  <div id="leaderboard"></div>
+  <h2>📅 Daily Challenge</h2>
+<button onclick="startDaily()">🎯 Play Daily Challenge</button>
+<p id="dailyMsg"></p>
+  <div id="levels"></div>
+  <div id="trophies"></div>
+  <button id="resetBtn" onclick="resetGame()">🔁 Reset Game</button>
+</div>
+
+<div id="gameScreen" class="hidden">
+  <h2 id="levelTitle"></h2>
+  <div id="timer">⏱ 10</div>
+  <div id="question"></div>
+  <div id="options"></div>
+  <div id="stars"></div>
+  <button onclick="backToLevels()">⬅ Back</button>
+</div>
+
+<p id="resultMsg"></p>
+
+<audio id="correctSound" src="correct.mp3"></audio>
+<audio id="wrongSound" src="wrong.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
