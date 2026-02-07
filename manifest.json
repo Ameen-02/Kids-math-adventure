@@ -15,9 +15,9 @@
   "categories": ["education", "kids", "games"],
   "icons": [
     {
-      "src": "im1.jpeg",
+      "src": "im3.png",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/png"
     },
     {
       "src": "im2.jpeg",
