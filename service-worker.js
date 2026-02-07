@@ -1,4 +1,4 @@
-const cacheName = "kids-math-v1";
+const cacheName = "kids-math-v2";
 const assets = [
   "./",
   "./index.html",
