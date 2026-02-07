@@ -5,6 +5,7 @@
   <meta name="google-site-verification" content="X2x25q0K8HH6bgb1ADDxF6cNBiTCeJmjxM3ezW-GYg4" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kids Math Quiz</title>
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -42,8 +43,14 @@
 <audio id="wrongSound" src="wrong.mp3"></audio>
 
 <script src="script.js"></script>
+  <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
 </body>
 </html>
+
 
 
 
